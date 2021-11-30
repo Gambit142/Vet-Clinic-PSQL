@@ -1,7 +1,6 @@
-# curriculum-databases-projects-template
+# VET CLINIC PSQL
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> This database project contains files that creates a table, insert data into the table and queries the data in the table
 
 
 ## Getting Started
@@ -15,17 +14,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 **Francis Nzenwa Ugorji**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Gambit142](https://github.com/Gambit142)
 
-👤 **Author2**
+- LinkedIn: [Francis Ugorji](https://www.linkedin.com/in/francis-ugorji/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -39,9 +33,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Microverse for the opportunity to learn on their platform
+
 
 ## 📝 License
 
