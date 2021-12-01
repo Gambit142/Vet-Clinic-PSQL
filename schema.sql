@@ -1,4 +1,5 @@
 /* Database schema to keep the structure of entire database. */
+DROP TABLE IF EXISTS ANIMALS;
 
 CREATE TABLE animals (
     id INT GENERATED ALWAYS AS IDENTITY,
@@ -7,5 +8,6 @@ CREATE TABLE animals (
     escape_attempt INT,
     neutered BOOLEAN,
     WEIGHT_KG DECIMAL,
+    species VARCHAR(100),
     PRIMARY KEY(id)
 );
