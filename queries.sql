@@ -217,4 +217,8 @@ WHERE vets.name = 'Maisy Smith'
 GROUP BY species.name
 ORDER BY COUNT(species.name) DESC FETCH FIRST ROW ONLY;
 
+-- SELECT * FROM visits where vet_id = 2;
+
+Create Index visits_vet_id on visits(vet_id);
+explain analyze select vet_id from visits where vet_id = 2;
 
