@@ -217,8 +217,15 @@ WHERE vets.name = 'Maisy Smith'
 GROUP BY species.name
 ORDER BY COUNT(species.name) DESC FETCH FIRST ROW ONLY;
 
+-- SELECT COUNT(*) FROM visits where animal_id = 4;
+CREATE INDEX visits_animal_id ON visits(animal_id);
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+
 -- SELECT * FROM visits where vet_id = 2;
 
 Create Index visits_vet_id on visits(vet_id);
 explain analyze select vet_id from visits where vet_id = 2;
 
+--SELECT * FROM owners where email = 'owner_18327@mail.com';
+ Create index owners_email_asc On owners(email ASC);
+ explain analyze select full_name, email from owners where email = 'owner_18327@mail.com';
