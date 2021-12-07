@@ -21,6 +21,13 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 - LinkedIn: [Francis Ugorji](https://www.linkedin.com/in/francis-ugorji/)
 
+## Contributors
+
+- GitHub: [Busiwa24](https://github.com/Busiwa24)
+
+- Twitter: [@busiwaliuma](https://twitter.com/busiwaliuma)
+- LinkedIn: [Busiwa Liuma](https://www.linkedin.com/in/busiwa-liuma-)
+
 
 ## 🤝 Contributing
 
